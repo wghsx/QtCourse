@@ -1,0 +1,22 @@
+# Qt 编译产物（Qt Creator 生成的是 build-项目名-Kit名-模式 这种目录）
+build/
+build2/
+build-*/
+debug/
+release/
+
+# Qt Creator 用户配置
+*.pro.user
+*.pro.user.*
+
+# 编译中间文件
+*.o
+*.obj
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+.qmake.stash
+Makefile*
+
+# Qt Creator 项目级配置目录及其备份
+.qtcreator*/
