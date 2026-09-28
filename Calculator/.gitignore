@@ -7,3 +7,5 @@ build*/
 *.o
 moc_*
 ui_*.h
+tests/target_wrapper.bat
+tests/results.txt

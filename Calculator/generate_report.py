@@ -57,7 +57,7 @@ doc.add_heading("五、AI 辅助开发记录", 1)
 doc.add_paragraph("问题：怎样让鼠标和键盘操作一致，并处理连续操作及异常输入？提示词：完成带键盘事件的 Qt 计算器，使用 UI 设计器布局、统一处理逻辑并覆盖除零等边界。AI 给出的方案：把按钮和键盘映射为统一命令，在独立的 CalculatorEngine 中维护状态。实际运行：编译、QtTest 和界面截图均已验证。存在的问题与修改：初版 UI 自定义属性及编译工具链配置引起构建失败，已依据编译错误调整 UI 样式和 PATH。")
 
 doc.add_heading("六、Git 记录与实验总结", 1)
-doc.add_paragraph("源码位于本地 Git 仓库。远程 GitHub 仓库地址尚未提供，故未填写不存在的在线提交记录。演示视频需在最终提交前录制：连续展示小数计算、键盘计算、退格和清除、除零、连续运算、异常输入及 git log。")
+doc.add_paragraph("源码和实验记录已推送至 https://github.com/wghsx/QtCourse 的 Calculator/ 目录，保留 5 次对应实现、界面、测试、构建说明和报告的提交记录。演示视频需在最终提交前录制：连续展示小数计算、键盘计算、退格和清除、除零、连续运算、异常输入及 git log。")
 doc.add_paragraph("本实验将输入状态与界面分开，便于检查连续操作、重复小数点等问题。通过 QtTest 核对计算结果，并用 Windows 图形环境截图检查实际界面。")
 
 doc.save(OUT)

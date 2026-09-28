@@ -7,5 +7,5 @@ PASS   : CalculatorTests::divideByZeroAndRecovery()
 PASS   : CalculatorTests::backspaceClearAndResult()
 PASS   : CalculatorTests::mouseKeyboardSharedLogic()
 PASS   : CalculatorTests::cleanupTestCase()
-Totals: 7 passed, 0 failed, 0 skipped, 0 blacklisted, 535ms
+Totals: 7 passed, 0 failed, 0 skipped, 0 blacklisted, 664ms
 ********* Finished testing of CalculatorTests *********
