@@ -12,7 +12,7 @@ void CalculatorEngine::input(const QString &key)
     }
     if (key.size() == 1 && key[0].isDigit()) digit(key);
     else if (key == ".") decimalPoint();
-    else if (key == "⌫") backspace();
+    else if (key == "←") backspace();
     else if (key == "+" || key == "-" || key == "×" || key == "÷") operation(key);
     else if (key == "=") equals();
 }

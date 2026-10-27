@@ -40,7 +40,7 @@ void CalculatorWindow::keyPressEvent(QKeyEvent *event)
     else if (event->key() == Qt::Key_Asterisk || event->key() == Qt::Key_X) key = "×";
     else if (event->key() == Qt::Key_Slash) key = "÷";
     else if (event->key() == Qt::Key_Equal || event->key() == Qt::Key_Return || event->key() == Qt::Key_Enter) key = "=";
-    else if (event->key() == Qt::Key_Backspace) key = "⌫";
+    else if (event->key() == Qt::Key_Backspace) key = "←";
     else if (event->key() == Qt::Key_Escape || event->key() == Qt::Key_Delete) key = "C";
     if (key.isEmpty()) QWidget::keyPressEvent(event);
     else { dispatch(key); event->accept(); }

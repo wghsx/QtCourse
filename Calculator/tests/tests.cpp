@@ -49,7 +49,7 @@ void CalculatorTests::divideByZeroAndRecovery()
 void CalculatorTests::backspaceClearAndResult()
 {
     CalculatorEngine e;
-    enter(e, {"1", "2", "⌫", "+", "2", "="});
+    enter(e, {"1", "2", "←", "+", "2", "="});
     QCOMPARE(e.display(), QString("3"));
     enter(e, {"4", "+", "5", "="});
     QCOMPARE(e.display(), QString("9"));
